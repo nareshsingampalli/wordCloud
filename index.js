@@ -6,7 +6,7 @@ let addBtn= document.getElementById('addBtn');
 let errorMsg= document.getElementById('errorMsg');
 
 function createWord(word){
-    let randomFontSize = Math.ceil(Math.random()*50);
+    let randomFontSize = Math.ceil(Math.random()*85);
     let spanEl = document.createElement('span');
     spanEl.style.fontSize = randomFontSize+'px';
     spanEl.classList.add('span');
