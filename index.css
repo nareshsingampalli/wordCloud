@@ -2,6 +2,7 @@
 
 .word-cloud-container {
   height: 100vh;
+  width:50%;
   padding: 40px;
 }
 
